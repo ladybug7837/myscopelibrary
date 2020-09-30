@@ -1,5 +1,5 @@
 {
-  "version": "0.1.0",
+  "version": "0.1.1",
   "name": "@ladybug7837/pack-library",
   "license": "MIT",
   "scripts": {
@@ -13,7 +13,7 @@
     "directory": "build"
   },
   "dependencies": {
-    "@ladybug7837/pack-hello-component": "^0.1.0"
+    "@ladybug7837/pack-hello-component": "^0.1.1"
   },
   "peerDependencies": {
     "vue": "^2.6.10"
