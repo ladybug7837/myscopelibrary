@@ -1,0 +1,17 @@
+{
+  "version": "0.1.0-alpha.1",
+  "name": "@ladybug7837/pack-hello-component",
+  "license": "MIT",
+  "scripts": {
+    "build": "cd ../.. && yarn build:lib mylib-hello-component --add-umd"
+  },
+  "files": [
+    "dist/*"
+  ],
+  "publishConfig": {
+    "directory": "build"
+  },
+  "peerDependencies": {
+    "vue": "^2.6.10"
+  }
+}
